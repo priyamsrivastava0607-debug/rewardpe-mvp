@@ -1,0 +1,11 @@
+customer_id,name,purchase_frequency,engagement_score,sentiment_score,brand_interaction,last_purchase_days,total_spend,reward_preference
+C001,Rahul Sharma,8,75,82,70,5,45000,Cashback
+C002,Priya Patel,3,45,60,40,25,12000,Gift Card
+C003,Amit Kumar,1,20,35,15,60,3000,Discount
+C004,Sneha Gupta,12,90,88,85,2,78000,Early Access
+C005,Vikram Singh,5,55,65,50,18,22000,Cashback
+C006,Anita Desai,2,30,40,25,45,8000,Surprise Bonus
+C007,Rajesh Nair,10,85,80,78,3,62000,Cashback
+C008,Meera Iyer,4,50,58,45,22,18000,Gift Card
+C009,Suresh Reddy,1,15,25,10,90,2000,Discount
+C010,Kavita Joshi,7,70,75,68,8,38000,Early Access
