@@ -13,7 +13,7 @@ def get_seg(e,c): return "Loyal" if e>=70 and c<30 else ("At Risk" if c>=50 else
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(os.path.join(APP_DIR, "data", "sample_customers.csv"))
+    df = pd.read_csv(os.path.join(APP_DIR, "sample_customers.csv"))
     df['eli_score'] = df.apply(calc_eli, axis=1)
     df['churn_probability'] = df.apply(calc_churn, axis=1)
     df['segment'] = df.apply(lambda r: get_seg(r['eli_score'], r['churn_probability']), axis=1)
